@@ -1,0 +1,18 @@
+[project]
+name = "business_intelligence"
+version = "0.0.6"
+authors = [
+  { name="Alejandro Yegros Schmidt", email="alejandro_aug@hotmail.com" },
+]
+description = "Tools for business intelligence"
+readme = "README.md"
+dependencies = [
+  "numpy>=2.2.2", 
+  "pandas>=2.2.3"
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = { file = "LICENSE" }
